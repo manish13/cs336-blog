@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "CS336 Notes"
+  description: "Notes and assignment write-ups from Stanford CS336: Language Modeling from Scratch"
+  navbar:
+    left:
+      - index.qmd
+      - text: "Posts"
+        href: posts/index.qmd
+
+format:
+  html:
+    theme: cosmo
+    code-fold: true
+    toc: true
+    execute:
+      freeze: auto

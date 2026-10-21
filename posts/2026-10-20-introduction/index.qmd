@@ -1,0 +1,27 @@
+---
+title: "Starting CS336"
+description: "Why I'm working through CS336 and what I plan to cover."
+date: 2026-10-20
+categories: [intro]
+---
+
+## Plan
+
+I'm working through Stanford CS336 (Language Modeling from Scratch), covering the lectures and then the assignments. This blog is where I write down what I learn and discuss it.
+
+## A first code cell
+
+Code cells run when the site renders, and their output is stored in the post. Here is a quick plot as a smoke test:
+
+```{python}
+import numpy as np
+import matplotlib.pyplot as plt
+
+x = np.linspace(0, 2 * np.pi, 200)
+fig, ax = plt.subplots(figsize=(6, 3))
+ax.plot(x, np.sin(x), label="sin(x)")
+ax.plot(x, np.cos(x), label="cos(x)")
+ax.legend()
+ax.set_title("A first plot")
+plt.show()
+```

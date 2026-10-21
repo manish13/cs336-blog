@@ -1,0 +1,9 @@
+---
+title: "CS336 Notes"
+about:
+  template: marquee
+---
+
+Notes, code, and plots from working through Stanford CS336 (Language Modeling from Scratch), including the assignments.
+
+[Read the posts](posts/index.qmd)
