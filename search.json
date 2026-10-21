@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "CS336 Notes",
+    "section": "",
+    "text": "Notes, code, and plots from working through Stanford CS336 (Language Modeling from Scratch), including the assignments.\nRead the posts"
+  },
+  {
+    "objectID": "posts/2026-10-20-introduction/index.html",
+    "href": "posts/2026-10-20-introduction/index.html",
+    "title": "Starting CS336",
+    "section": "",
+    "text": "I’m working through Stanford CS336 (Language Modeling from Scratch), covering the lectures and then the assignments. This blog is where I write down what I learn and discuss it."
+  },
+  {
+    "objectID": "posts/2026-10-20-introduction/index.html#plan",
+    "href": "posts/2026-10-20-introduction/index.html#plan",
+    "title": "Starting CS336",
+    "section": "",
+    "text": "I’m working through Stanford CS336 (Language Modeling from Scratch), covering the lectures and then the assignments. This blog is where I write down what I learn and discuss it."
+  },
+  {
+    "objectID": "posts/2026-10-20-introduction/index.html#a-first-code-cell",
+    "href": "posts/2026-10-20-introduction/index.html#a-first-code-cell",
+    "title": "Starting CS336",
+    "section": "A first code cell",
+    "text": "A first code cell\nCode cells run when the site renders, and their output is stored in the post. Here is a quick plot as a smoke test:\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nx = np.linspace(0, 2 * np.pi, 200)\nfig, ax = plt.subplots(figsize=(6, 3))\nax.plot(x, np.sin(x), label=\"sin(x)\")\nax.plot(x, np.cos(x), label=\"cos(x)\")\nax.legend()\nax.set_title(\"A first plot\")\nplt.show()"
+  },
+  {
+    "objectID": "posts/index.html",
+    "href": "posts/index.html",
+    "title": "Posts",
+    "section": "",
+    "text": "Starting CS336\n\n\nWhy I’m working through CS336 and what I plan to cover.\n\n\n\n\n\nOct 20, 2026\n\n\n\n\n\nNo matching items"
+  }
+]
