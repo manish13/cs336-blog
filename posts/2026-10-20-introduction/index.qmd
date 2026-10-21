@@ -5,9 +5,9 @@ date: 2026-10-20
 categories: [intro]
 ---
 
-## Plan
+Hey world, my name is Manish. I am a researcher, and I am starting a deep dive into CS336, where I want to implement each component of an LLM and understand it inside out.
 
-I'm working through Stanford CS336 (Language Modeling from Scratch), covering the lectures and then the assignments. This blog is where I write down what I learn and discuss it.
+This is my diary of the notes I take while I learn this and attempt the assignments. Let's have fun.
 
 ## A first code cell
 

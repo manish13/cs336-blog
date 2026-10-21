@@ -1,10 +1,10 @@
 {
-  "hash": "9cde91de632e0e766e23accc3baa00fb",
+  "hash": "583cf6cf43d0a9359ea7de46f01d7f58",
   "result": {
     "engine": "jupyter",
-    "markdown": "---\ntitle: \"Starting CS336\"\ndescription: \"Why I'm working through CS336 and what I plan to cover.\"\ndate: 2026-10-20\ncategories: [intro]\n---\n\n## Plan\n\nI'm working through Stanford CS336 (Language Modeling from Scratch), covering the lectures and then the assignments. This blog is where I write down what I learn and discuss it.\n\n## A first code cell\n\nCode cells run when the site renders, and their output is stored in the post. Here is a quick plot as a smoke test:\n\n::: {#3409f7a9 .cell execution_count=1}\n``` {.python .cell-code}\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nx = np.linspace(0, 2 * np.pi, 200)\nfig, ax = plt.subplots(figsize=(6, 3))\nax.plot(x, np.sin(x), label=\"sin(x)\")\nax.plot(x, np.cos(x), label=\"cos(x)\")\nax.legend()\nax.set_title(\"A first plot\")\nplt.show()\n```\n\n::: {.cell-output .cell-output-display}\n![](index_files/figure-html/cell-2-output-1.png){width=507 height=283}\n:::\n:::\n\n\n",
+    "markdown": "---\ntitle: \"Starting CS336\"\ndescription: \"Why I'm working through CS336 and what I plan to cover.\"\ndate: 2026-10-20\ncategories: [intro]\n---\n\nHey world, my name is Manish. I am a researcher, and I am starting a deep dive into CS336, where I want to implement each component of an LLM and understand it inside out.\n\nThis is my diary of the notes I take while I learn this and attempt the assignments. Let's have fun.\n\n## A first code cell\n\nCode cells run when the site renders, and their output is stored in the post. Here is a quick plot as a smoke test:\n\n::: {#f60358c9 .cell execution_count=1}\n``` {.python .cell-code}\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nx = np.linspace(0, 2 * np.pi, 200)\nfig, ax = plt.subplots(figsize=(6, 3))\nax.plot(x, np.sin(x), label=\"sin(x)\")\nax.plot(x, np.cos(x), label=\"cos(x)\")\nax.legend()\nax.set_title(\"A first plot\")\nplt.show()\n```\n\n::: {.cell-output .cell-output-display}\n![](index_files/figure-html/cell-2-output-1.png){width=507 height=283}\n:::\n:::\n\n\n",
     "supporting": [
-      "index_files"
+      "index_files/figure-html"
     ],
     "filters": [],
     "includes": {}
